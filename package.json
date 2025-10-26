@@ -1,23 +1,23 @@
 {
-  "name": "website-portfolio",
-  "version": "1.0.0",
+  "name": "ai-site",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "typecheck": "tsc --noEmit"
+    "build": "vite build --sourcemap",
+    "preview": "vite preview --port 5173"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.8",
+    "@vitejs/plugin-react": "^4.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.2.12",
-    "@types/react-dom": "^18.2.5",
-    "typescript": "^5.4.2",
-    "vite": "^5.2.0"
-  }
+    "typescript": "^5.6.2",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0"
+  },
+  "engines": { "node": ">=18" }
 }
